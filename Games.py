@@ -3,6 +3,8 @@ import json
 import re
 import os
 
+print("DEBUG KEY:", os.getenv("OPENAI_API_KEY"))
+
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
     base_url="https://openrouter.ai/api/v1",
