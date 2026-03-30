@@ -1,0 +1,226 @@
+[
+  {
+    "name": "The Witcher 3",
+    "genre": "RPG",
+    "playtime": "50h+",
+    "features": "开放世界 剧情丰富 角色塑造强",
+    "audience": "探索型玩家",
+    "score": 9.8
+  },
+  {
+    "name": "Dark Souls III",
+    "genre": "Action RPG",
+    "playtime": "30h+",
+    "features": "高难度 战斗硬核 碎片化叙事",
+    "audience": "硬核玩家",
+    "score": 9.0
+  },
+  {
+    "name": "Elden Ring",
+    "genre": "Open World RPG",
+    "playtime": "60h+",
+    "features": "开放探索 高自由度 魂系战斗",
+    "audience": "探索型+硬核玩家",
+    "score": 9.7
+  },
+  {
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "genre": "Adventure",
+    "playtime": "50h+",
+    "features": "开放世界 物理交互 创意解谜",
+    "audience": "探索型玩家",
+    "score": 9.7
+  },
+  {
+    "name": "Red Dead Redemption 2",
+    "genre": "Action Adventure",
+    "playtime": "60h+",
+    "features": "电影级叙事 真实世界 细节极致",
+    "audience": "剧情党 沉浸玩家",
+    "score": 9.7
+  },
+  {
+    "name": "Grand Theft Auto V",
+    "genre": "Sandbox",
+    "playtime": "40h+",
+    "features": "开放世界 自由玩法 多角色叙事",
+    "audience": "大众玩家",
+    "score": 9.5
+  },
+  {
+    "name": "Minecraft",
+    "genre": "Sandbox",
+    "playtime": "无限",
+    "features": "建造 创造 生存 沙盒",
+    "audience": "创造型玩家 全年龄",
+    "score": 9.3
+  },
+  {
+    "name": "Hades",
+    "genre": "Roguelike",
+    "playtime": "20h+",
+    "features": "快节奏战斗 随机性 强叙事",
+    "audience": "轻度+核心玩家",
+    "score": 9.3
+  },
+  {
+    "name": "Dead Cells",
+    "genre": "Roguelike",
+    "playtime": "25h+",
+    "features": "横版动作 高重复可玩性 流畅战斗",
+    "audience": "操作型玩家",
+    "score": 9.1
+  },
+  {
+    "name": "Civilization VI",
+    "genre": "Strategy",
+    "playtime": "无限",
+    "features": "回合制 策略深度 历史文明",
+    "audience": "策略玩家",
+    "score": 9.0
+  },
+  {
+    "name": "StarCraft II",
+    "genre": "RTS",
+    "playtime": "30h+",
+    "features": "即时战略 竞技性强 多线操作",
+    "audience": "竞技玩家",
+    "score": 9.2
+  },
+  {
+    "name": "XCOM 2",
+    "genre": "Turn-based Strategy",
+    "playtime": "40h+",
+    "features": "战术决策 随机事件 高压力",
+    "audience": "策略+硬核玩家",
+    "score": 8.9
+  },
+  {
+    "name": "The Last of Us Part II",
+    "genre": "Narrative Action",
+    "playtime": "25h+",
+    "features": "剧情驱动 情感冲击 电影化体验",
+    "audience": "剧情党",
+    "score": 9.3
+  },
+  {
+    "name": "God of War (2018)",
+    "genre": "Action",
+    "playtime": "20h+",
+    "features": "线性叙事 父子关系 战斗爽感",
+    "audience": "动作+剧情玩家",
+    "score": 9.5
+  },
+  {
+    "name": "Sekiro: Shadows Die Twice",
+    "genre": "Action",
+    "playtime": "30h+",
+    "features": "高难度 精准格挡 节奏极强",
+    "audience": "硬核动作玩家",
+    "score": 9.1
+  },
+  {
+    "name": "Portal 2",
+    "genre": "Puzzle",
+    "playtime": "10h+",
+    "features": "物理解谜 创意关卡 幽默叙事",
+    "audience": "解谜玩家",
+    "score": 9.6
+  },
+  {
+    "name": "Tetris Effect",
+    "genre": "Puzzle",
+    "playtime": "无限",
+    "features": "音乐节奏 视觉沉浸 经典玩法",
+    "audience": "休闲玩家",
+    "score": 8.8
+  },
+  {
+    "name": "FIFA 23",
+    "genre": "Sports",
+    "playtime": "无限",
+    "features": "足球竞技 真实模拟 多人对战",
+    "audience": "体育玩家",
+    "score": 8.2
+  },
+  {
+    "name": "Call of Duty: Modern Warfare",
+    "genre": "FPS",
+    "playtime": "15h+",
+    "features": "射击手感 强剧情 多人模式",
+    "audience": "射击玩家",
+    "score": 8.5
+  },
+  {
+    "name": "Overwatch",
+    "genre": "Hero Shooter",
+    "playtime": "无限",
+    "features": "团队合作 英雄技能 快节奏",
+    "audience": "竞技+团队玩家",
+    "score": 9.0
+  },
+  {
+    "name": "Apex Legends",
+    "genre": "Battle Royale",
+    "playtime": "无限",
+    "features": "团队合作 快节奏 角色技能",
+    "audience": "硬核"
+  },
+  {
+    "name": "Kena: Bridge of Spirits",
+    "genre": "Action-Adventure",
+    "playtime": "10h+",
+    "features": [
+      "开放世界",
+      "剧情",
+      "解谜"
+    ],
+    "audience": "休闲玩家"
+  },
+  {
+    "name": "For Honor",
+    "genre": "Action",
+    "playtime": "50h+",
+    "features": [
+      "多人对战",
+      "战斗策略",
+      "历史背景"
+    ],
+    "audience": "竞技玩家"
+  },
+  {
+    "name": "Animal Well",
+    "genre": "Puzzle",
+    "playtime": "10h+",
+    "features": [
+      "探索",
+      "解谜",
+      "像素艺术"
+    ],
+    "audience": "休闲玩家"
+  },
+  {
+    "name": "Outer Wilds",
+    "genre": "Adventure",
+    "playtime": "15h+",
+    "features": [
+      "开放世界",
+      "探索",
+      "解谜",
+      "剧情"
+    ],
+    "audience": "休闲玩家"
+  },
+  {
+    "name": "Disco Elysium",
+    "genre": "RPG",
+    "playtime": "20h+",
+    "features": [
+      "开放世界",
+      "剧情",
+      "角色扮演",
+      "选择影响结局"
+    ],
+    "audience": "休闲玩家"
+  }
+]
