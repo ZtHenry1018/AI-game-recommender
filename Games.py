@@ -1,10 +1,15 @@
 from openai import OpenAI
 import json
 import re
+import os
 
 client = OpenAI(
-    api_key="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",
-    base_url="https://openrouter.ai/api/v1"
+    api_key=os.getenv("OPENAI_API_KEY"),
+    base_url="https://openrouter.ai/api/v1",
+    default_headers={
+        "HTTP-Referer": "https://robust-courage-production-12e0.up.railway.app/",  # 可以随便填
+        "X-Title": "AI Game Recommender"
+    }
 )
 
 def get_completion(prompt):
