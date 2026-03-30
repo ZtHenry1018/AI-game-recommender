@@ -1,47 +1,49 @@
 import streamlit as st
 import requests
 
-st.title("🎮 AI游戏推荐助手")
+# 🔗 你的后端地址（换成你的）
+API_URL = "https://ai-game-recommender-production.up.railway.app"
 
-user_input = st.text_input("请输入你的游戏需求")
+st.title("🎮 AI游戏推荐器")
 
-if st.button("推荐"):
+# ===== 推荐功能 =====
+st.header("🔍 游戏推荐")
+
+user_input = st.text_input("请输入你的游戏需求：")
+
+if st.button("推荐游戏"):
 
     response = requests.post(
-        "http://127.0.0.1:8000/recommend",
-        json={"user_input": user_input}
+        f"{API_URL}/recommend",
+        json={"query": user_input}
     )
 
-    data = response.json()
+    if response.status_code == 200:
+        data = response.json()
 
-    if data["status"] == "invalid":
-        st.error(data["reason"])
-
-    elif data["status"] == "no_result":
-        st.warning("没有匹配游戏")
-
-    elif data["status"] == "success":
-
-        st.success("推荐结果：")
-
-        for g in data["games"]:
-            st.markdown(f"### 🎮 {g['name']}")
+        for g in data["results"]:
+            st.subheader(g["name"])
             st.write(f"评分：{g['score']}")
             st.write(f"理由：{g['reason']}")
-            st.divider()
+            st.write("---")
+    else:
+        st.error("推荐失败")
 
-st.title("➕ 添加游戏")
 
-new_game = st.text_input("输入游戏名")
+# ===== 添加游戏 =====
+st.header("➕ 添加游戏")
 
-if st.button("添加到库"):
+new_game = st.text_input("输入游戏名称")
+
+if st.button("添加游戏"):
 
     response = requests.post(
-        "http://127.0.0.1:8000/add_game",
+        f"{API_URL}/add_game",
         json={"name": new_game}
     )
 
-    data = response.json()
-
-    if data["status"] == "success":
-        st.success(f"已添加：{data['game']['name']}")
+    if response.status_code == 200:
+        st.success("添加成功！")
+        st.json(response.json())
+    else:
+        st.error("添加失败")
